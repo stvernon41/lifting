@@ -1,0 +1,18 @@
+{
+  "/api/v1/*": {
+    "target": "http://127.0.0.1:8000",
+    "secure": false
+  },
+  "/accounts/*": {
+    "target": "http://127.0.0.1:8000",
+    "secure": false
+  },
+  "/api-token-auth/": {
+    "target": "http://127.0.0.1:8000",
+    "secure": false
+  },
+  "/api-token-refresh/": {
+    "target": "http://127.0.0.1:8000",
+    "secure": false
+  }
+}
